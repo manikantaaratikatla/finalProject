@@ -1,50 +1,50 @@
-<section class="">
-	<div class="container px-6 py-12 h-full">
-		<div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
-			<div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
-				<img src="/login.png" class="w-full" alt="Phone image" />
-			</div>
-			<div class="md:w-8/12 lg:w-5/12 lg:ml-20">
-				<h1 class="text-center mb-10 font-bold text-4xl">LOGIN</h1>
-				<form>
-					<!-- Email input -->
-					<div class="mb-6">
+<section class="h-[100%] overflow-y-hidden bg-gray-100 pt-[185px]">
+	<div class="h-[60%] flex items-center justify-center ">
+		<div class="max-w-md w-full px-6 py-8 bg-white rounded-lg shadow-md">
+			<h1 class="text-2xl font-bold mb-8">Log in</h1>
+			<form class="space-y-6">
+				<div class="md:w-10/12 lg:w-10/12 lg:ml-10">
+					<div class="radio-btn flex gap-4 mb-4">
+						<div class="radio-btn-admin">
+							<input class="" type="radio" id="member" value="Admin" name="member" />
+							<lable class="text-xl font-semibold text-gray-600">Admin</lable>
+						</div>
+						<div class="radio-btn-staff">
+							<input type="radio" id="member" value="Staff" name="member" />
+							<lable class="text-xl font-semibold text-gray-600">Staff</lable>
+						</div>
+					</div>
+					<div>
+						<label class="block mb-2 font-bold text-gray-700" for="email"> Email </label>
 						<input
-							type="text"
-							class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-							placeholder="Login Id"
+							class="w-full px-3 py-2 leading-tight border border-gray-300 rounded shadow-md focus:outline-none focus:shadow-outline"
+							id="email"
+							type="email"
+							placeholder="Enter your email"
+							required
 						/>
 					</div>
-
-					<!-- Password input -->
-					<div class="mb-6">
+					<div>
+						<label class="block mb-2 font-bold text-gray-700" for="password"> Password </label>
 						<input
+							class="w-full px-3 py-2 leading-tight border border-gray-300 rounded shadow-md focus:outline-none focus:shadow-outline"
+							id="password"
 							type="password"
-							class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-							placeholder="Password"
+							placeholder="Enter your password"
+							required
 						/>
 					</div>
-
-					<div class="flex justify-between items-center mb-6">
-						<div class="form-group form-check" />
-						<a
-							href="#!"
-							class="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
-							>Forgot password?</a
+					<br /><br />
+					<div>
+						<button
+							class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+							type="submit"
 						>
+							Log in
+						</button>
 					</div>
-
-					<!-- Submit button -->
-					<button
-						type="submit"
-						class="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
-						data-mdb-ripple="true"
-						data-mdb-ripple-color="light"
-					>
-						Sign in
-					</button>
-				</form>
-			</div>
+				</div>
+			</form>
 		</div>
 	</div>
 </section>
