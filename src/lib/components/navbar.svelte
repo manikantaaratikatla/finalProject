@@ -1,14 +1,16 @@
 <section class="fixed w-[100%] top-0">
 	<div class="header flex py-2 border-b-2 items-center justify-center bg-gray-900">
 		<img src="/logo.jpeg" alt="logo" class="w-[100px] mx-6 rounded-full" />
-		<div>
-			<h1 class="text-center text-white">BABA INSTITUTE OF TECHONOLOY AND SCIENCES</h1>
-			<h6
-				class="text-center text-xl 3xs:text-[6.5px] 2xs:text-[7.5px] xs:text-[9.5px] leading-3 xl:text-lg lg:text-sm md:text-[12px] text-white"
-			>
-				( Accredited by NAAC | Approved by AICTE,New Delhi | Affiliated to JNTU-Kakinada,GV )<br
-				/>(An ISO 9001:2015 Certified Educational Institution)
-			</h6>
+		<div
+			class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex-col flex items-center justify-between"
+		>
+			<h3 class="text-2xl font-bold text-white ">BABA INSTITUTE OF TECHNOLOGY AND SCIENCES</h3>
+			<div class="text-sm text-white ">
+				(Accredited by NAAC | Approved by AICTE, New Delhi | Affiliated to JNTU-Kakinada, GV)
+				<br />
+				<span class="text-xs text-center">(An ISO 9001:2015 Certified Educational Institution)</span
+				>
+			</div>
 		</div>
 	</div>
 	<ul class="navitems flex justify-evenly items-center  border-b-4 bg-white">

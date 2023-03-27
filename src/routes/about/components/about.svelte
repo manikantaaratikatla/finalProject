@@ -4,10 +4,8 @@
 		<div class="flex flex-wrap -mx-2">
 			<div class="w-full md:w-1/2 px-2">
 				<p class="mb-4">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis aliquet tellus, non
-					eleifend lacus pretium et. Sed fermentum erat lectus, eget vestibulum dolor rutrum non.
-					Fusce tristique, risus id consequat egestas, est arcu consectetur libero, eget auctor elit
-					elit ut ipsum.
+					Starting in 2008, the institute is well known for its innovative spirit, intensive
+					research and hands-on approach to solve real world problems.
 				</p>
 				<p class="mb-4">
 					Nunc ac odio nec massa suscipit tempor. Vestibulum luctus dictum elit, eu aliquam mi
