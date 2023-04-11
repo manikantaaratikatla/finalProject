@@ -1,5 +1,5 @@
 <div class="bg-white shadow overflow-hidden sm:rounded-md pt-[185px] w-full">
-	<table class=" mx-auto m-8">
+	<table class="table-auto w-full ">
 		<thead>
 			<tr class="bg-gray-200 text-gray-700">
 				<th class="p-2 border border-gray-500">Tournament Name</th>
@@ -12,72 +12,64 @@
 				<td class="p-2 border border-gray-500">Summer 2022</td>
 				<td class="p-2 border border-gray-500">June 12, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<tr class="border-b border-gray-300">
 				<td class="p-2 border border-gray-500">Fall Classic 2022</td>
 				<td class="p-2 border border-gray-500">September 18, 2022</td>
 				<td class="p-2 border border-gray-500">
-					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700"
-						>View Winners</a
-					>
+					<a href="#" class="px-2 py-1 text-white bg-green-500 rounded hover:bg-green-700">Edit</a>
+					<a href="#" class="px-2 py-1 text-white bg-red-500 rounded hover:bg-red-700">Delete</a>
 				</td>
 			</tr>
 			<!-- add more rows here as needed -->
