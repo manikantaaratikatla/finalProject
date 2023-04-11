@@ -1,7 +1,5 @@
 <script>
 	import Addtournment from './components/addtournment.svelte';
-	import AddStaff from './components/addStaff.svelte';
-	import Reports from './components/reports.svelte';
 	import EditWinnerList from './components/editWinnerList.svelte';
 	import AddWinner from './components/addWinner.svelte';
 	import EditTournament from './components/editTournament.svelte';
@@ -54,22 +52,6 @@
 				>
 					<span class="ml-3 flex-1 whitespace-nowrap">Edit winner list </span>
 				</li>
-				<li
-					on:click={() => {
-						setTab(5);
-					}}
-					class="text-base cursor-pointer text-gray-900 font-normal rounded-lg flex items-center p-2 hover:bg-gray-100 group"
-				>
-					<span class="ml-3 flex-1 whitespace-nowrap">Add Staff</span>
-				</li>
-				<li
-					on:click={() => {
-						setTab(6);
-					}}
-					class="text-base cursor-pointer text-gray-900 font-normal rounded-lg flex items-center p-2 hover:bg-gray-100 group"
-				>
-					<span class="ml-3 flex-1 whitespace-nowrap">Reports</span>
-				</li>
 			</ul>
 		</div>
 	</aside>
@@ -81,8 +63,4 @@
 		<AddWinner />{/if}
 	{#if selectedTab == 4}
 		<EditWinnerList />{/if}
-	{#if selectedTab == 5}
-		<AddStaff />{/if}
-	{#if selectedTab == 6}
-		<Reports />{/if}
 </div>
